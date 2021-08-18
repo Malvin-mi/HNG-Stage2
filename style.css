@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    height: 100vh;
+    text-align: center;
+    color: #05386B;
+    background-color: #5cdb95;
+    padding: 0;
+    margin: 0;
+}
+header h1{
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.fa-github-square:hover {
+    color: floralwhite;
+    transition: ease-in .5s;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+   
+    width: ;
+    background-color: #8ee4af;
+    color: #05386B;
+}
+
+#aboutme {
+    padding: 100px;
+}
+#Education {
+    padding: 100px;
+    background-color: floralwhite;
+    border-bottom: 2px solid #05386B;
+}
+#Education h2 {
+    text-decoration-line: underline;
+}
+ul li {
+    list-style: none;
+}
+
+#projects {
+    padding: 100px;
+    background-color: floralwhite;
+    border-bottom: 2px solid #05386B;
+}
+
+#projects h2 {
+    text-decoration-line: underline;
+}
+
+#projects h2 ul li {
+    list-style: none;
+}
+
+#experience {
+    padding: 100px;
+    background-color: #05386B;
+    color: #edf5e1;
+}
+#Skills {
+    padding: 100px;
+    background-color: #05386B;
+    color: #edf5e1;
+    border-top: 2px solid #edf5e1;
+}
+
+#Interest {
+    padding: 100px;
+    border-bottom: 2px solid #05386B;
+}
+#contact {
+    padding: 100px;
+    border-bottom: 2px solid #05386B;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+#logo {
+    align-self: center;
+}
+
+@media screen and (max-width:500px) {
+    header {
+        height: max-content;
+    }
+
+}
