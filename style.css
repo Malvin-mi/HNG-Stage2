@@ -93,5 +93,8 @@ img {
     header {
         height: max-content;
     }
+    body {
+        padding: 0;
+    }
 
 }
