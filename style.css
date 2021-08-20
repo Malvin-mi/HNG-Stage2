@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    top: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -10,6 +11,7 @@ header {
     background-color: #5cdb95;
     padding: 0;
     margin: 0;
+    top: 0;
 }
 header h1{
     padding-top: 150px;
@@ -23,8 +25,6 @@ header h1{
 .child{
     display: flex;
     flex-direction: column;
-   
-    width: ;
     background-color: #8ee4af;
     color: #05386B;
 }
@@ -35,7 +35,7 @@ header h1{
 #Education {
     padding: 100px;
     background-color: floralwhite;
-    border-bottom: 2px solid #05386B;
+    border-bottom: 2px solid #5382b1;
 }
 #Education h2 {
     text-decoration-line: underline;
@@ -96,5 +96,30 @@ img {
     body {
         padding: 0;
     }
+    #aboutme {
+        padding: 30px;
+    }
+    #Education {
+        padding: 30px; 
+    }
 
+     #projects {
+            padding: 30px;
+            
+    }
+
+    #experience {
+        padding: 30px;
+    }
+    #Skills {
+        padding: 30px;
+    }
+    
+    #Interest {
+        padding: 30px;
+    }
+    #contact {
+        padding: 30px;
+    }
+        
 }
