@@ -1,0 +1,36 @@
+body {
+    background-color: #05386B;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nametin {
+    width: 100%;
+    background-color: #5cdb95;
+    text-align: center;
+    color: #05386B;
+    margin: 200px;
+    font-weight: 40;
+    border-radius: 50px;
+    box-shadow: 2px 5px 2px 5px white;
+
+}
+button {
+    padding: 5px;
+    border: 1px solid #05386B;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: crimson;
+    transition: ease-in .2s;
+}
+
+#name {
+    transition: ease-in 2s;
+}
+
+@media screen and (max-width: 500px) {
+    #nametin {
+        margin: 20px;
+        margin-top: 170px;
+    }
+}
