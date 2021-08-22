@@ -37,9 +37,6 @@ header h1{
     background-color: floralwhite;
     border-bottom: 2px solid #5382b1;
 }
-#Education h2 {
-    text-decoration-line: underline;
-}
 ul li {
     list-style: none;
 }
@@ -48,10 +45,6 @@ ul li {
     padding: 100px;
     background-color: floralwhite;
     border-bottom: 2px solid #05386B;
-}
-
-#projects h2 {
-    text-decoration-line: underline;
 }
 
 #projects h2 ul li {
